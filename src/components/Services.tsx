@@ -6,9 +6,20 @@ import {
 } from 'lucide-react';
 import Reveal from './Reveal';
 
+import { 
+  IconWhitening, IconBonding, IconCheckups, IconCosmetic, 
+  IconImplants, IconDentures, IconBridges, IconEmergency, 
+  IconExtraction, IconFillings, IconLaser, IconMouthGuard, 
+  IconSurgery, IconPediatric, IconRootCanal, IconCleaning, 
+  IconReshaping, IconVeneers, IconCrowns, IconXRay, 
+  IconSmileDesign, IconJewellery 
+} from './DentalIcons';
+
+
 const servicesData = [
   {
     title: "Teeth Whitening",
+    largeIcon: IconWhitening,
     icon: <Sparkles size={28} />,
     desc: "Professional bleaching to safely and effectively brighten your smile by several shades in a single visit.",
     benefits: ["Removes deep stains", "Immediate results", "Safe for enamel"],
@@ -24,6 +35,7 @@ const servicesData = [
   },
   {
     title: "Dental Bonding",
+    largeIcon: IconBonding,
     icon: <PenTool size={28} />,
     desc: "Application of a tooth-colored resin to repair chips, cracks, or gaps, seamlessly blending with natural teeth.",
     benefits: ["Fixes minor imperfections", "Cost-effective", "Non-invasive"],
@@ -38,6 +50,7 @@ const servicesData = [
   },
   {
     title: "Routine Checkups",
+    largeIcon: IconCheckups,
     icon: <Stethoscope size={28} />,
     desc: "Comprehensive exam to monitor oral health, catch early signs of decay, and prevent future dental issues.",
     benefits: ["Prevents decay", "Catches issues early", "Maintains oral health"],
@@ -52,6 +65,7 @@ const servicesData = [
   },
   {
     title: "Cosmetic Dentistry",
+    largeIcon: IconCosmetic,
     icon: <Smile size={28} />,
     desc: "Customized aesthetic treatments designed to enhance the overall appearance and symmetry of your smile.",
     benefits: ["Boosts confidence", "Tailored to your face", "Long-lasting results"],
@@ -66,6 +80,7 @@ const servicesData = [
   },
   {
     title: "Dental Implants",
+    largeIcon: IconImplants,
     icon: <ShieldCheck size={28} />,
     desc: "Permanent titanium replacements for missing teeth roots, capped with natural-looking crowns.",
     benefits: ["Permanent solution", "Looks & feels natural", "Prevents bone loss"],
@@ -81,6 +96,7 @@ const servicesData = [
   },
   {
     title: "Dentures",
+    largeIcon: IconDentures,
     icon: <Smile size={28} />,
     desc: "Custom-fitted removable appliances to replace missing teeth and restore functionality.",
     benefits: ["Restores chewing", "Improves speech", "Supports facial structure"],
@@ -95,6 +111,7 @@ const servicesData = [
   },
   {
     title: "Bridges",
+    largeIcon: IconBridges,
     icon: <Crosshair size={28} />,
     desc: "Fixed dental restorations used to bridge the gap created by one or more missing teeth.",
     benefits: ["Prevents teeth shifting", "Restores bite", "Fixed (non-removable)"],
@@ -109,6 +126,7 @@ const servicesData = [
   },
   {
     title: "Emergency Dentistry",
+    largeIcon: IconEmergency,
     icon: <Activity size={28} />,
     desc: "Immediate care for severe pain, knocked-out teeth, or urgent infections to save your smile.",
     benefits: ["Immediate pain relief", "Saves natural teeth", "Prevents infection"],
@@ -123,6 +141,7 @@ const servicesData = [
   },
   {
     title: "Tooth Extraction",
+    largeIcon: IconExtraction,
     icon: <Scissors size={28} />,
     desc: "Safe and painless removal of severely decayed, damaged, or impacted teeth (including wisdom teeth).",
     benefits: ["Stops spread of decay", "Relieves pain", "Prevents crowding"],
@@ -137,6 +156,7 @@ const servicesData = [
   },
   {
     title: "Dental Fillings",
+    largeIcon: IconFillings,
     icon: <Droplets size={28} />,
     desc: "Tooth-colored composite resin used to treat cavities and restore the structural integrity of the tooth.",
     benefits: ["Stops decay", "Matches tooth color", "Durable"],
@@ -151,6 +171,7 @@ const servicesData = [
   },
   {
     title: "Laser Dentistry",
+    largeIcon: IconLaser,
     icon: <Zap size={28} />,
     desc: "Advanced laser technology for minimally invasive gum treatments, cavity prep, and soft tissue procedures.",
     benefits: ["Minimizes bleeding", "Faster healing", "Often requires no anesthesia"],
@@ -165,6 +186,7 @@ const servicesData = [
   },
   {
     title: "Mouth Guards",
+    largeIcon: IconMouthGuard,
     icon: <ShieldCheck size={28} />,
     desc: "Custom-molded protective devices for sports or to prevent teeth grinding (bruxism) while sleeping.",
     benefits: ["Protects teeth", "Reduces jaw pain", "Custom fit for comfort"],
@@ -179,6 +201,7 @@ const servicesData = [
   },
   {
     title: "Oral Surgery",
+    largeIcon: IconSurgery,
     icon: <Activity size={28} />,
     desc: "Complex surgical interventions including bone grafting, jaw surgery, and complex extractions.",
     benefits: ["Resolves complex issues", "Restores bone structure"],
@@ -193,6 +216,7 @@ const servicesData = [
   },
   {
     title: "Pediatric Dentistry",
+    largeIcon: IconPediatric,
     icon: <Heart size={28} />,
     desc: "Gentle, fun, and specialized dental care focused on the unique needs of infants, children, and teens.",
     benefits: ["Prevents early decay", "Builds good habits", "Stress-free environment"],
@@ -207,6 +231,7 @@ const servicesData = [
   },
   {
     title: "Root Canal Treatment",
+    largeIcon: IconRootCanal,
     icon: <Crosshair size={28} />,
     desc: "Removal of infected pulp from inside the tooth to eliminate pain and save the natural tooth structure.",
     benefits: ["Saves natural tooth", "Eliminates severe pain", "Stops infection"],
@@ -221,6 +246,7 @@ const servicesData = [
   },
   {
     title: "Teeth Cleaning",
+    largeIcon: IconCleaning,
     icon: <Sparkles size={28} />,
     desc: "Professional scaling and polishing to remove plaque and tartar buildup above and below the gumline.",
     benefits: ["Prevents gum disease", "Freshens breath", "Removes surface stains"],
@@ -235,6 +261,7 @@ const servicesData = [
   },
   {
     title: "Teeth Reshaping",
+    largeIcon: IconReshaping,
     icon: <Scissors size={28} />,
     desc: "Subtle contouring of the enamel to fix uneven edges and create a more harmonious smile.",
     benefits: ["Painless", "Immediate results", "Improves symmetry"],
@@ -249,6 +276,7 @@ const servicesData = [
   },
   {
     title: "Veneers",
+    largeIcon: IconVeneers,
     icon: <Smile size={28} />,
     desc: "Ultra-thin porcelain shells permanently bonded to the front of teeth for a flawless Hollywood smile.",
     benefits: ["Total smile makeover", "Stain-resistant", "Durable porcelain"],
@@ -263,6 +291,7 @@ const servicesData = [
   },
   {
     title: "Crowns",
+    largeIcon: IconCrowns,
     icon: <ShieldCheck size={28} />,
     desc: "Custom-made caps that entirely cover a damaged tooth to restore its shape, size, and strength.",
     benefits: ["Protects weak teeth", "Restores functionality", "Natural appearance"],
@@ -277,6 +306,7 @@ const servicesData = [
   },
   {
     title: "Digital X-Ray",
+    largeIcon: IconXRay,
     icon: <Camera size={28} />,
     desc: "High-resolution, low-radiation digital imaging used for accurate diagnosis and treatment planning.",
     benefits: ["Up to 90% less radiation", "Instant results", "Highly detailed"],
@@ -291,6 +321,7 @@ const servicesData = [
   },
   {
     title: "Smile Designing",
+    largeIcon: IconSmileDesign,
     icon: <PenTool size={28} />,
     desc: "Comprehensive digital planning to redesign your smile combining multiple cosmetic treatments.",
     benefits: ["Predictable results", "Customized to facial structure"],
@@ -305,6 +336,7 @@ const servicesData = [
   },
   {
     title: "Tooth Jewellery",
+    largeIcon: IconJewellery,
     icon: <Gem size={28} />,
     desc: "Safe, non-invasive bonding of tiny gems or crystals to the tooth surface for a unique sparkle.",
     benefits: ["Painless", "Temporary/Removable", "No drilling required"],
@@ -366,7 +398,8 @@ export default function Services() {
                 <h3 className="service-title">{service.title}</h3>
                 <p className="service-desc">{service.desc}</p>
                 
-                <div className="service-details">
+                <div className="service-content-wrapper" style={{ display: 'flex', position: 'relative' }}>
+                  <div className="service-details" style={{ width: '60%', zIndex: 2 }}>
                   <div className="service-detail-item">
                     <span className="service-detail-label">Key Benefits</span>
                     <ul className="service-benefits">
@@ -396,6 +429,12 @@ export default function Services() {
                     <span className="service-detail-label">Ideal For</span>
                     <span className="service-detail-text">{service.candidates}</span>
                   </div>
+                </div>
+                {service.largeIcon && (
+                  <div className="service-premium-icon-container" style={{ position: 'absolute', right: '0', top: '50%', transform: 'translateY(-50%)', width: '38%', opacity: 0.95, zIndex: 1, pointerEvents: 'none' }}>
+                    <service.largeIcon />
+                  </div>
+                )}
                 </div>
 
                 {/* ACCORDION CONTENT */}

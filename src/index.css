@@ -4738,3 +4738,19 @@ main {
 .footer-legal-links a:hover {
   color: rgba(255,255,255,0.8);
 }
+
+
+/* Premium Service Icons */
+.service-premium-icon {
+  width: 100%;
+  height: auto;
+  max-width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.service-card:hover .service-premium-icon {
+  transform: scale(1.08) translateY(-4px);
+}
+
