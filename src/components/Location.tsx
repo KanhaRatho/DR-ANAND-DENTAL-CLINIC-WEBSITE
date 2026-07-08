@@ -25,8 +25,8 @@ export default function Location() {
                   <div>
                     <h4 className="location-detail-title">Clinic Address</h4>
                     <div className="location-detail-text">
-                      <span className="loc-line loc-line-1">SVN Dental Care</span>
-                      <span className="loc-line loc-line-2">Near Umaramalingeswara Temple, Opp. Datla Hospital, Dasannapeta, Vizianagaram, Andhra Pradesh 535002</span>
+                      <span className="loc-line loc-line-1">Dr. Anand's Dental Clinic</span>
+                      <span className="loc-line loc-line-2">Subramanyam Peta, Ayyakoneru, Vizianagaram, Andhra Pradesh 535002</span>
                     </div>
                   </div>
                 </div>
@@ -36,7 +36,7 @@ export default function Location() {
                   <div>
                     <h4 className="location-detail-title">Opening Hours</h4>
                     <div className="location-detail-text">
-                      <span className="loc-line loc-line-3">Mon - Sat: 9:00 AM - 8:30 PM</span>
+                      <span className="loc-line loc-line-3">Mon - Sat: 9:00 AM - 9:00 PM</span>
                       <span className="loc-line loc-line-4">Sun: 10:00 AM - 2:00 PM (By Appt.)</span>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ export default function Location() {
               </div>
 
               <a 
-                href="https://maps.google.com/?q=SVN+Dental+Care,Vizianagaram,Andhra+Pradesh" 
+                href="https://maps.google.com/?q=Dr.+Anand's+Dental+Clinic,Vizianagaram,Andhra+Pradesh" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="btn btn-primary btn-directions location-btn-anim"
@@ -57,7 +57,7 @@ export default function Location() {
             <div className="location-map-wrapper">
               <div className="map-placeholder" style={{ width: '100%', height: '400px', borderRadius: '16px', overflow: 'hidden', boxShadow: '0 20px 40px rgba(0,0,0,0.08)' }}>
                 <iframe 
-                  src="https://maps.google.com/maps?q=SVN+Dental+Care,Vizianagaram,Andhra+Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                  src="https://maps.google.com/maps?q=Dr.+Anand's+Dental+Clinic,Vizianagaram,Andhra+Pradesh&t=&z=15&ie=UTF8&iwloc=&output=embed" 
                   width="100%" 
                   height="100%" 
                   frameBorder="0" 
@@ -65,7 +65,7 @@ export default function Location() {
                   allowFullScreen 
                   aria-hidden="false" 
                   tabIndex={0}
-                  title="SVN Dental Care Location"
+                  title="Dr. Anand's Dental Clinic Location"
                 ></iframe>
               </div>
             </div>

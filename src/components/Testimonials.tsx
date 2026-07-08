@@ -5,38 +5,38 @@ export default function Testimonials() {
   const reviews = [
     {
       name: "Patient Review",
-      treatment: "General Dentistry",
-      text: "The treatment was painless and I experienced the best quality hygiene service.",
+      treatment: "Surgical Extraction",
+      text: "I had a surgical tooth removal done recently and the entire experience was much better than I expected. The doctor and staff were very professional, patient and caring throughout the procedure. They explained every step clearly.",
       avatar: "https://i.pravatar.cc/150?img=1"
     },
     {
       name: "Patient Review",
       treatment: "Dental Care",
-      text: "Patients can choose treatment options based on their budget.",
+      text: "Treatment was painless and I experienced the best quality hygienic service.",
       avatar: "https://i.pravatar.cc/150?img=11"
     },
     {
       name: "Patient Review",
       treatment: "Specialist Care",
-      text: "Neat and clean wash rooms. Staff here are polite and gave utmost care.",
+      text: "A pleasant hospitality by staff and the doctors have huge experience.",
       avatar: "https://i.pravatar.cc/150?img=5"
     },
     {
       name: "Patient Review",
       treatment: "General Dentistry",
-      text: "The treatment was painless and I experienced the best quality hygiene service.",
+      text: "Cutting edge dentistry meets compassionate care in every visit.",
       avatar: "https://i.pravatar.cc/150?img=12"
     },
     {
       name: "Patient Review",
-      treatment: "Dental Care",
-      text: "Patients can choose treatment options based on their budget.",
+      treatment: "Surgical Extraction",
+      text: "I had a surgical tooth removal done recently and the entire experience was much better than I expected. The doctor and staff were very professional, patient and caring throughout the procedure. They explained every step clearly.",
       avatar: "https://i.pravatar.cc/150?img=9"
     },
     {
       name: "Patient Review",
-      treatment: "Specialist Care",
-      text: "Neat and clean wash rooms. Staff here are polite and gave utmost care.",
+      treatment: "Dental Care",
+      text: "Treatment was painless and I experienced the best quality hygienic service.",
       avatar: "https://i.pravatar.cc/150?img=15"
     }
   ];
@@ -59,7 +59,7 @@ export default function Testimonials() {
                 <Star fill="#FEDD00" color="#FEDD00" size={24} />
                 <Star fill="#FEDD00" color="#FEDD00" size={24} />
               </div>
-              <p className="rating-text"><strong>5.0</strong> based on <strong>190+ Verified Google Reviews</strong></p>
+              <p className="rating-text"><strong>5.0</strong> based on <strong>545+ Verified Google Reviews</strong></p>
             </div>
           </div>
         

@@ -41,8 +41,8 @@ export default function Hero() {
                 <p>Years Experience</p>
               </div>
               <div className="hero-stat">
-                <h4><CountUp end={10} suffix="k+" /></h4>
-                <p>Happy Patients</p>
+                <h4><CountUp end={545} suffix="+" /></h4>
+                <p>Google Reviews</p>
               </div>
               <div className="hero-stat">
                 <h4><CountUp end={5} suffix=".0" /></h4>

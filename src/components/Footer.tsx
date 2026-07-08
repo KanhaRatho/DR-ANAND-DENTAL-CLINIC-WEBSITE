@@ -35,7 +35,7 @@ export default function Footer() {
               <Stethoscope size={28} color="white" />
             </div>
             <div className="footer-brand-title">
-              SVN<span>Dental Care</span>
+              Dr. Anand's<span>Dental Clinic</span>
             </div>
             <p className="footer-brand-tagline">
               Delivering world-class, pain-free dental care with advanced technology and a gentle touch. Experience true luxury in oral healthcare.
@@ -68,19 +68,18 @@ export default function Footer() {
             <div className="footer-contact-item">
               <MapPin size={18} className="footer-contact-icon" />
               <span>
-                Near Umaramalingeswara Temple,<br/>
-                Opp. Datla Hospital, Dasannapeta,<br/>
-                Vizianagaram, AP 535002
+                Subramanyam Peta, Ayyakoneru,<br/>
+                Vizianagaram, Andhra Pradesh 535002
               </span>
             </div>
             <div className="footer-contact-item">
               <Phone size={18} className="footer-contact-icon" />
-              <span>085003 86655</span>
+              <span>098885 29992</span>
             </div>
             <div className="footer-contact-item">
               <Clock size={18} className="footer-contact-icon" />
               <span>
-                Open • Closes 9:30 PM
+                Open • Closes 9:00 PM
               </span>
             </div>
           </motion.div>
@@ -117,7 +116,7 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <div className="footer-copyright">
-            &copy; {currentYear} SVN Dental Care. Designed with ❤️ for Better Smiles.
+            &copy; {currentYear} Dr. Anand's Dental Clinic. Designed with ❤️ for Better Smiles.
           </div>
           <div className="footer-legal-links">
             <Link to="/legal/privacy-policy">Privacy Policy</Link>

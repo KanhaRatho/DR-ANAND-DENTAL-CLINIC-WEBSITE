@@ -18,14 +18,14 @@ export default function Appointment() {
             </p>
             
             <div className="appointment-quick-contacts">
-              <a href="tel:08500386655" className="quick-contact-btn btn-call">
+              <a href="tel:09888529992" className="quick-contact-btn btn-call">
                 <Phone size={24} />
                 <div className="btn-text">
                   <span>Call Us Now</span>
-                  <strong>085003 86655</strong>
+                  <strong>098885 29992</strong>
                 </div>
               </a>
-              <a href="https://wa.me/918500386655" target="_blank" rel="noopener noreferrer" className="quick-contact-btn btn-whatsapp">
+              <a href="https://wa.me/919888529992" target="_blank" rel="noopener noreferrer" className="quick-contact-btn btn-whatsapp">
                 <MessageCircle size={24} />
                 <div className="btn-text">
                   <span>WhatsApp Us</span>

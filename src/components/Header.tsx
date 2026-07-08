@@ -19,7 +19,7 @@ export default function Header() {
       <header className={`header header-entrance ${scrolled ? 'scrolled' : ''}`}>
         <div className="container header-container">
           <div className="logo" style={{ fontWeight: 700, fontSize: '1.25rem', color: 'var(--primary)' }}>
-            VPN Dental Care
+            Dr. Anand's Dental Clinic
           </div>
           
           <nav className="nav-links">
@@ -33,10 +33,10 @@ export default function Header() {
           </nav>
 
           <div className="header-actions">
-            <a href="tel:08500386655" className="header-icon-btn" aria-label="Call us">
+            <a href="tel:09888529992" className="header-icon-btn" aria-label="Call us">
               <Phone size={18} />
             </a>
-            <a href="https://wa.me/918500386655" target="_blank" rel="noopener noreferrer" className="header-icon-btn" aria-label="WhatsApp us" style={{ color: '#25D366' }}>
+            <a href="https://wa.me/919888529992" target="_blank" rel="noopener noreferrer" className="header-icon-btn" aria-label="WhatsApp us" style={{ color: '#25D366' }}>
               <MessageCircle size={18} />
             </a>
             <a href="#appointment" className="btn btn-primary" style={{ padding: '10px 24px', textDecoration: 'none' }}>
