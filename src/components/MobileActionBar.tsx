@@ -5,11 +5,11 @@ export default function MobileActionBar() {
   return (
     <div className="mobile-action-bar">
       <div className="mobile-action-grid">
-        <a href="tel:08500386655" className="mobile-action-item">
+        <a href="tel:09888529992" className="mobile-action-item">
           <Phone size={20} />
           <span>Call Now</span>
         </a>
-        <a href="https://wa.me/918500386655" className="mobile-action-item">
+        <a href="https://wa.me/919888529992" className="mobile-action-item">
           <MessageCircle size={20} />
           <span>WhatsApp</span>
         </a>
