@@ -34,7 +34,7 @@ export default function DoctorProfile() {
           <Reveal threshold={0.1} className="luxury-reveal-portrait">
             <div className="luxury-portrait-frame floating-element">
               <img 
-                src="/doctor.jpg" 
+                src="/dental doctor.jpg.png" 
                 alt="Dr. Anand's Dental Clinic" 
                 className="luxury-portrait-image"
                 loading="lazy"
