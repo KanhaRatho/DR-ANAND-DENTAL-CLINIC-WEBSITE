@@ -185,7 +185,7 @@ export default function About() {
           
           <motion.p className="about-desc" style={{ color: 'var(--secondary)', fontSize: '1.125rem', lineHeight: '1.7', marginTop: '24px' }}>
             <motion.span style={{ display: 'block', opacity: descLine1Opacity, y: descLine1Y }}>
-              At SVN Dental Care, we believe visiting the dentist shouldn't be a source of anxiety.
+              At Dr. Anand's Dental Clinic, we believe visiting the dentist shouldn't be a source of anxiety.
             </motion.span>
             <motion.span style={{ display: 'block', opacity: descLine2Opacity, y: descLine2Y, marginTop: '4px' }}>
               Our philosophy is rooted in a deeply patient-first approach—combining gentle, stress-free care with world-class clinical precision for over two decades.

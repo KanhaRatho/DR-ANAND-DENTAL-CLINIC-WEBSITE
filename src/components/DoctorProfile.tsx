@@ -35,7 +35,7 @@ export default function DoctorProfile() {
             <div className="luxury-portrait-frame floating-element">
               <img 
                 src="/doctor.jpg" 
-                alt="SVN Dental Care" 
+                alt="Dr. Anand's Dental Clinic" 
                 className="luxury-portrait-image"
                 loading="lazy"
               />
@@ -44,7 +44,7 @@ export default function DoctorProfile() {
               <div className="luxury-info-card">
                 <div className="luxury-info-icon"><Plus size={20} color="var(--primary)" /></div>
                 <div className="luxury-info-text">
-                  <h4>SVN Dental Care</h4>
+                  <h4>Dr. Anand's Dental Clinic</h4>
                   <p>Lead Dental Surgeon</p>
                 </div>
               </div>

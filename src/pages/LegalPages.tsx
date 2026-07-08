@@ -8,7 +8,7 @@ const policies: Record<string, { title: string; content: React.ReactNode }> = {
     content: (
       <>
         <h3>1. Introduction</h3>
-        <p>At SVN Dental Care, patient confidentiality and data protection are paramount. This Privacy Policy outlines how we collect, use, and safeguard your personal and medical information in accordance with standard medical ethics and applicable Indian data protection laws.</p>
+        <p>At Dr. Anand's Dental Clinic, patient confidentiality and data protection are paramount. This Privacy Policy outlines how we collect, use, and safeguard your personal and medical information in accordance with standard medical ethics and applicable Indian data protection laws.</p>
         
         <h3>2. Information We Collect</h3>
         <p>We collect personal information (name, contact details, date of birth) and medical history (previous treatments, allergies, current medications) strictly necessary for providing optimal dental care.</p>
@@ -26,7 +26,7 @@ const policies: Record<string, { title: string; content: React.ReactNode }> = {
     content: (
       <>
         <h3>1. Agreement to Terms</h3>
-        <p>By booking an appointment or receiving treatment at SVN Dental Care, you agree to these Terms and Conditions.</p>
+        <p>By booking an appointment or receiving treatment at Dr. Anand's Dental Clinic, you agree to these Terms and Conditions.</p>
         
         <h3>2. Treatment Consent</h3>
         <p>All invasive procedures require explicit informed consent. You have the right to ask questions about the risks, benefits, and alternatives of any proposed treatment plan.</p>
@@ -89,7 +89,7 @@ const policies: Record<string, { title: string; content: React.ReactNode }> = {
     content: (
       <>
         <h3>1. Our Commitment</h3>
-        <p>SVN Dental Care is committed to ensuring digital accessibility for all users, including those with disabilities. We strive to continually improve the user experience and apply relevant accessibility standards.</p>
+        <p>Dr. Anand's Dental Clinic is committed to ensuring digital accessibility for all users, including those with disabilities. We strive to continually improve the user experience and apply relevant accessibility standards.</p>
         
         <h3>2. Physical Accessibility</h3>
         <p>Our physical clinic in Vizianagaram is wheelchair accessible, ensuring that all patients can receive care comfortably.</p>
